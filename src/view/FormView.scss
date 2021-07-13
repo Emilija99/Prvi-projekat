@@ -1,0 +1,47 @@
+.formKont{
+    
+    h5{
+        font-size: 13px;
+        background: 	#8B0000;
+        font-weight: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding:5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .stationsLbl{
+        margin-left: 10px;
+        
+         
+        
+    }
+
+    .foundList{
+        
+        border-radius: 10px;
+        padding-top:12px;
+        
+        div{
+            padding:10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+           
+            
+        }
+        div:hover{
+            background-color:dodgerblue;
+            cursor:pointer;
+        }
+    }
+
+    .dateTime{
+        margin-left: 15px;
+        input{
+        font-size: 13px;
+        width:200px;
+        height: 40px;
+        border:none;
+        }
+    }
+}

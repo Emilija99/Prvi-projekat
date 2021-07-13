@@ -1,0 +1,44 @@
+.departuresTable{
+    color:black;
+    font-family:  Helvetica;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+   
+    white-space: nowrap;
+    background-color: white;
+
+    td,th{
+        text-align: center;
+        padding: 8px;
+        width: 25%;
+    }
+    td{
+        border-right: 1px solid #f8f8f8;
+    }
+
+    thead,th{
+        color: #ffffff;
+    background: #4FC3A1;
+    }
+
+    th:nth-child(odd) {
+        color: #ffffff;
+        background: #324960;
+    }
+
+    tr:nth-child(even) {
+        background:lightgray;
+    }
+
+}
+
+.tableKont{
+    width: 100%;
+    margin-top: 30px;
+    
+}

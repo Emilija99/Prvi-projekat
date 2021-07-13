@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  }
+
+  .autokomplKont{
+      margin-left: 15px;
+      border-radius: 10px;
+     
+      margin-bottom: 20px;
+     
+  }
+
+  .inputRoute{
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+    width: 120px;
+    color:black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .listItem{
+    border: 1px solid #d4d4d4;
+    cursor:pointer;
+    border-top: none;
+    width: 120px;
+    padding: 10px;
+    color:black;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .listItem:hover{
+    background-color: #e9e9e9;
+  }
+
+  .listContainer{
+      position: absolute;
+      background-color: white;
+      border:2px solid black;
+      border-top: none;
+      border-radius: 3px;
+      overflow: auto;
+      max-height: 400px;
+     
+  }
+
+  .formKont{
+      display: flex;
+    
+    
+  }
+
+  .foundList{
+      width: inherit;
+      height: 400px;
+      color:black;
+     
+      margin-left: 10px;
+      margin-top: 5px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color:white;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: url('https://bus-news.com/wp-content/uploads/sites/4/2021/02/Volvo-Keolis-Gothenburg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+  }
+
+  h2{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin:0px;
+   
+  }
